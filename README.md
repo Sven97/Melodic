@@ -36,5 +36,9 @@ There are two versions of the laser cut svg file in "case design" folder. The de
 
 ## 2.1 Raspberry Pi
 
-We will be running face mesh extraction on the raspberry pi. Currently, we are using mediapipe and open-cv for this purpose. Therefore, we need to install mediapipe and open-cv on the raspberry pi. However, until there is correct compatibility of OPEN-CV with the new Raspberry Pi ‘Bullseye’ OS, I highly recommend at this stage flashing and using the previous Raspberry Pi ‘Buster’ OS onto your Micro-SD.
+### 2.1.1 Flash System and Set-up
+
+We will be running face mesh extraction on the raspberry pi. Currently, we are using mediapipe and open-cv for this purpose. Therefore, we need to install mediapipe and open-cv on the raspberry pi. However, until there is correct compatibility of OPEN-CV with the new Raspberry Pi ‘Bullseye’ OS, I highly recommend at this stage flashing and using the previous Raspberry Pi ‘Buster’ OS onto your Micro-SD. This is a [guide](https://core-electronics.com.au/tutorials/flash-buster-os-pi.html) for how to flash the old 'Buster' Raspberry Pi OS to a Micro-SD.
+
+
 
