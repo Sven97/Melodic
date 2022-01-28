@@ -1,0 +1,200 @@
+.page {
+  padding-bottom: 1.28rem;
+  background-color: rgb(248, 252, 252);
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+}
+.section_1 {
+  padding: 0.31rem 0.38rem 0.31rem;
+  background-image: linear-gradient(270deg, rgba(162, 240, 227, 0) 22.6%, rgba(119, 217, 252, 0.4) 78.3%);
+}
+.divider {
+  margin-top: 0.31rem;
+  padding: 0 0.38rem;
+}
+.text_11 {
+  margin-top: 0.81rem;
+  align-self: center;
+  color: rgb(37, 37, 37);
+  font-size: 0.38rem;
+  font-weight: 700;
+  line-height: 0.38rem;
+  white-space: nowrap;
+}
+.divider_1 {
+  margin-top: 0.34rem;
+}
+.group_2 {
+  margin-top: 0.41rem;
+  padding-top: 0.91rem;
+  color: transparent;
+  font-size: 0.75rem;
+  line-height: 1.19rem;
+  white-space: nowrap;
+  position: relative;
+}
+.equal-division {
+  margin-top: 1rem;
+  align-self: center;
+}
+.group {
+  flex: 1 1 auto;
+}
+.group_1 {
+  margin: 0.22rem 0.16rem 0.094rem 1.25rem;
+  color: rgb(152, 153, 154);
+  font-size: 0.25rem;
+  line-height: 0.19rem;
+  white-space: nowrap;
+}
+.text_6 {
+  color: rgb(37, 37, 37);
+  font-size: 0.22rem;
+  font-weight: 800;
+  line-height: 0.19rem;
+  white-space: nowrap;
+}
+.text_7 {
+  margin-left: 0.19rem;
+  color: rgb(37, 37, 37);
+  font-size: 0.22rem;
+  line-height: 0.16rem;
+  white-space: nowrap;
+}
+.text_8 {
+  margin-left: 0.28rem;
+  color: rgb(37, 37, 37);
+  font-size: 0.22rem;
+  line-height: 0.19rem;
+  white-space: nowrap;
+}
+.text_9 {
+  margin-left: 0.19rem;
+  color: rgb(37, 37, 37);
+  font-size: 0.22rem;
+  line-height: 0.16rem;
+  white-space: nowrap;
+}
+.text_10 {
+  margin-left: 0.28rem;
+  color: rgb(37, 37, 37);
+  font-size: 0.22rem;
+  line-height: 0.19rem;
+  white-space: nowrap;
+}
+.text_12 {
+  color: rgb(37, 37, 37);
+  font-size: 0.22rem;
+  line-height: 0.16rem;
+  white-space: nowrap;
+}
+.text_13 {
+  margin-left: 0.66rem;
+  color: rgb(37, 37, 37);
+  font-size: 0.22rem;
+  line-height: 0.16rem;
+  white-space: nowrap;
+}
+.image_2 {
+  width: 12.59rem;
+  height: 3.38rem;
+}
+.text-wrapper_1 {
+  padding: 0.22rem 0 2.84rem;
+  background-image: url('https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/61f3ae885a7e3f0310e2d6a4/61f3aeaba4955900114d556d/16433599870100004113.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 12.72rem;
+  position: absolute;
+  left: 3.31rem;
+  top: 0;
+}
+.equal-division-item {
+  padding: 0.19rem 0 0.22rem;
+  flex: 1 1 3.41rem;
+  color: rgb(255, 251, 251);
+  font-size: 0.25rem;
+  font-weight: 600;
+  line-height: 0.19rem;
+  white-space: nowrap;
+  background-image: linear-gradient(91.7deg, rgb(119, 217, 252) 17.8%, rgb(163, 241, 228) 84.7%);
+  border-radius: 0.84rem;
+  box-shadow: 0.042rem 0.042rem 0.063rem rgba(69, 66, 66, 0.25);
+  width: 3.41rem;
+  height: 0.59rem;
+  position: relative;
+}
+.equal-division-item_1 {
+  margin-left: 1.03rem;
+  padding: 0.22rem 0 0.22rem;
+  flex: 1 1 3.41rem;
+  color: rgb(255, 251, 251);
+  font-size: 0.25rem;
+  font-weight: 600;
+  line-height: 0.19rem;
+  white-space: nowrap;
+  background-image: linear-gradient(91.7deg, rgb(119, 217, 252) 17.8%, rgb(163, 241, 228) 84.7%);
+  border-radius: 0.84rem;
+  box-shadow: 0.042rem 0.042rem 0.063rem rgba(69, 66, 66, 0.25);
+  width: 3.41rem;
+  height: 0.59rem;
+}
+.image {
+  width: 0.84rem;
+  height: 0.84rem;
+}
+.text {
+  margin: 0.22rem 0 0.25rem 0.16rem;
+  color: rgb(49, 52, 56);
+  font-size: 0.5rem;
+  font-weight: 600;
+  line-height: 0.38rem;
+  white-space: nowrap;
+}
+.text_1 {
+  margin-left: 1.28rem;
+  align-self: center;
+  color: rgb(37, 37, 37);
+  font-size: 0.25rem;
+  line-height: 0.25rem;
+  white-space: nowrap;
+}
+.text_2 {
+  margin-left: 0.78rem;
+  align-self: center;
+  color: rgb(37, 37, 37);
+  font-size: 0.25rem;
+  line-height: 0.25rem;
+  white-space: nowrap;
+}
+.text_3 {
+  align-self: center;
+  color: rgb(37, 37, 37);
+  font-size: 0.25rem;
+  line-height: 0.25rem;
+  white-space: nowrap;
+}
+.text-wrapper {
+  margin-left: 0.81rem;
+  padding-bottom: 0.13rem;
+  align-self: center;
+  color: rgb(37, 37, 37);
+  font-size: 0.25rem;
+  font-weight: 800;
+  line-height: 0.25rem;
+  white-space: nowrap;
+  border-bottom: solid 0.063rem rgb(37, 37, 37);
+}
+.image_1 {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+.text_5 {
+  margin: 0.16rem 0 0.19rem 0.13rem;
+}
+.text_14 {
+  margin-left: 1.97rem;
+  background-image: linear-gradient(93.5deg, rgba(164, 242, 229, 0.74) 23.2%, rgb(121, 218, 253) 92%);
+  -webkit-background-clip: text;
+}

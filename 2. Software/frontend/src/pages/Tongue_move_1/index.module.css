@@ -1,0 +1,129 @@
+.page {
+  padding-bottom: 3.72rem;
+  background-color: rgb(248, 252, 252);
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+}
+.group_5 {
+  margin-top: 1.81rem;
+  height: 3.78rem;
+  border-bottom: solid 0.063rem
+    linear-gradient(
+      270deg,
+      rgba(215, 216, 216, 0) 83.8%,
+      rgba(195, 196, 196, 0.69) 70.8%,
+      rgb(157, 157, 157) 45.4%,
+      rgba(191, 191, 191, 0.76) 22.5%,
+      rgba(213, 213, 213, 0) 7%
+    );
+  position: relative;
+}
+.section_1 {
+  padding: 0.31rem 0.38rem 0.31rem;
+  background-image: linear-gradient(270deg, rgba(162, 240, 227, 0) 22.6%, rgba(119, 217, 252, 0.4) 78.3%);
+}
+.group_4 {
+  padding: 0.31rem 0.38rem 0;
+}
+.divider {
+  background-color: linear-gradient(
+    270deg,
+    rgba(215, 216, 216, 0) 83.8%,
+    rgba(195, 196, 196, 0.69) 70.8%,
+    rgb(157, 157, 157) 45.4%,
+    rgba(191, 191, 191, 0.76) 22.5%,
+    rgba(213, 213, 213, 0) 7%
+  );
+  height: 0.063rem;
+  position: absolute;
+  left: 0;
+  right: 0.63rem;
+  bottom: 1.34rem;
+}
+.section_2 {
+  background-image: linear-gradient(180deg, rgb(120, 218, 253) 0%, rgb(163, 241, 228) 100%);
+  border-radius: 0.094rem;
+  width: 3.84rem;
+  height: 3.75rem;
+  position: absolute;
+  left: 7.75rem;
+  bottom: -0.031rem;
+}
+.group_1 {
+  flex: 1 1 auto;
+}
+.group_3 {
+  margin: 0.22rem 0.16rem 0.094rem 1.25rem;
+  color: rgb(152, 153, 154);
+  font-size: 0.25rem;
+  line-height: 0.19rem;
+  white-space: nowrap;
+}
+.text_6 {
+  color: rgb(37, 37, 37);
+  font-size: 0.22rem;
+  font-weight: 800;
+  line-height: 0.19rem;
+  white-space: nowrap;
+}
+.text_7 {
+  margin-left: 0.31rem;
+  color: rgb(37, 37, 37);
+  font-size: 0.22rem;
+  line-height: 0.16rem;
+  white-space: nowrap;
+}
+.text_8 {
+  margin-left: 0.44rem;
+  color: rgb(37, 37, 37);
+  font-size: 0.22rem;
+  line-height: 0.19rem;
+  white-space: nowrap;
+}
+.image {
+  width: 0.84rem;
+  height: 0.84rem;
+}
+.text {
+  margin: 0.22rem 0 0.25rem 0.16rem;
+  color: rgb(49, 52, 56);
+  font-size: 0.5rem;
+  font-weight: 600;
+  line-height: 0.38rem;
+  white-space: nowrap;
+}
+.text_1 {
+  margin-left: 1.28rem;
+  align-self: center;
+  color: rgb(37, 37, 37);
+  font-size: 0.25rem;
+  line-height: 0.25rem;
+  white-space: nowrap;
+}
+.group_2 {
+  margin-left: 0.75rem;
+  padding-bottom: 0.13rem;
+  align-self: center;
+  color: rgb(37, 37, 37);
+  font-size: 0.25rem;
+  font-weight: 800;
+  line-height: 0.25rem;
+  white-space: nowrap;
+  border-bottom: solid 0.063rem rgb(37, 37, 37);
+}
+.text_4 {
+  margin-left: 0.78rem;
+  align-self: center;
+  color: rgb(37, 37, 37);
+  font-size: 0.25rem;
+  line-height: 0.25rem;
+  white-space: nowrap;
+}
+.image_1 {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+.text_5 {
+  margin: 0.16rem 0 0.19rem 0.13rem;
+}

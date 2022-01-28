@@ -1,0 +1,129 @@
+.page {
+  padding: 0 0.38rem;
+  background-color: rgb(248, 252, 252);
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+}
+.image {
+  margin-top: 0.31rem;
+  width: 0.84rem;
+  height: 0.84rem;
+}
+.group {
+  margin-left: 0.16rem;
+  padding: 0.53rem 0 10.38rem;
+  flex: 1 1 auto;
+  position: relative;
+}
+.image_1 {
+  margin-left: 0.31rem;
+  margin-top: 0.53rem;
+  width: 0.5rem;
+  height: 0.5rem;
+}
+.text_5 {
+  margin: 0.69rem 0.16rem 0 0.13rem;
+  color: rgb(152, 153, 154);
+  font-size: 0.25rem;
+  line-height: 0.19rem;
+  white-space: nowrap;
+}
+.text {
+  color: rgb(49, 52, 56);
+  font-size: 0.5rem;
+  font-weight: 600;
+  line-height: 0.38rem;
+  white-space: nowrap;
+}
+.group_1 {
+  position: absolute;
+  left: 0.88rem;
+  right: 0;
+  bottom: 0;
+}
+.section_1 {
+  padding: 6.84rem 0 3.75rem;
+  color: rgb(37, 37, 37);
+  font-size: 0.22rem;
+  line-height: 0.19rem;
+  white-space: nowrap;
+  background-image: linear-gradient(180deg, rgba(165, 239, 222, 0.9) 0%, rgba(130, 222, 243, 0.9) 100%);
+  width: 5.84rem;
+}
+.grid {
+  height: 1.06rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 2.69rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 1rem;
+  grid-column-gap: 2.19rem;
+}
+.equal-division {
+  position: absolute;
+  left: 0.34rem;
+  right: 0.66rem;
+  top: 3.59rem;
+}
+.text-wrapper {
+  padding: 0.25rem 0 0.22rem;
+  border-radius: 0.84rem;
+  filter: drop-shadow(0.042rem 0.042rem 0.031rem rgba(69, 66, 66, 0.25));
+  background-color: rgb(248, 252, 252);
+  background-image: url('https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/61f3ae885a7e3f0310e2d6a4/61f3aeaba4955900114d556d/16433599965820824096.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 3.75rem;
+}
+.grid-item {
+  padding: 0.25rem 0 0.22rem;
+  color: rgb(37, 37, 37);
+  font-size: 0.22rem;
+  line-height: 0.19rem;
+  white-space: nowrap;
+  background-image: linear-gradient(91.7deg, rgb(119, 217, 252) 17.8%, rgb(163, 241, 228) 84.7%);
+  border-radius: 0.84rem;
+  box-shadow: 0.042rem 0.042rem 0.063rem rgba(69, 66, 66, 0.25);
+  position: relative;
+}
+.grid-item_1 {
+  padding: 0.25rem 0 0.22rem;
+  color: rgb(37, 37, 37);
+  font-size: 0.22rem;
+  line-height: 0.19rem;
+  white-space: nowrap;
+  border-radius: 0.84rem;
+  filter: drop-shadow(0.042rem 0.042rem 0.031rem rgba(69, 66, 66, 0.25));
+  background-color: rgb(248, 252, 252);
+  background-image: url('https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/61f3ae885a7e3f0310e2d6a4/61f3aeaba4955900114d556d/16433599965820824096.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.grid-item_2 {
+  padding: 0.25rem 0 0.22rem;
+  color: rgb(37, 37, 37);
+  font-size: 0.22rem;
+  line-height: 0.19rem;
+  white-space: nowrap;
+  background-image: linear-gradient(91.7deg, rgb(119, 217, 252) 17.8%, rgb(163, 241, 228) 84.7%);
+  border-radius: 0.84rem;
+  box-shadow: 0.042rem 0.042rem 0.063rem rgba(69, 66, 66, 0.25);
+}
+.equal-division-item {
+  margin-bottom: 0.16rem;
+  width: 2.69rem;
+  height: 2.63rem;
+}
+.equal-division-item_1 {
+  margin: 0.28rem 0 0.19rem;
+  width: 2.63rem;
+  height: 2.31rem;
+}
+.equal-division-item_2 {
+  margin-top: 0.34rem;
+  width: 2.44rem;
+  height: 2.44rem;
+}

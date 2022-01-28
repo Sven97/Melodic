@@ -1,0 +1,245 @@
+.page {
+  background-color: rgb(248, 252, 252);
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+}
+.section_1 {
+  padding: 0.31rem 0.38rem 0.31rem;
+  background-image: linear-gradient(270deg, rgba(162, 240, 227, 0) 22.6%, rgba(119, 217, 252, 0.4) 78.3%);
+}
+.group_2 {
+  margin: 0.31rem 0 -1rem;
+  padding-left: 0.38rem;
+  padding-right: 0.38rem;
+}
+.group {
+  flex: 1 1 auto;
+}
+.group_1 {
+  margin: 0.22rem 0.16rem 0.094rem 1.25rem;
+  color: rgb(152, 153, 154);
+  font-size: 0.25rem;
+  line-height: 0.19rem;
+  white-space: nowrap;
+}
+.group_3 {
+  padding: 0.44rem 0.38rem 0;
+  height: 10.31rem;
+  position: relative;
+}
+.image {
+  width: 0.84rem;
+  height: 0.84rem;
+}
+.text {
+  margin: 0.22rem 0 0.25rem 0.16rem;
+  color: rgb(49, 52, 56);
+  font-size: 0.5rem;
+  font-weight: 600;
+  line-height: 0.38rem;
+  white-space: nowrap;
+}
+.text_1 {
+  margin-left: 1.28rem;
+  align-self: center;
+  color: rgb(37, 37, 37);
+  font-size: 0.25rem;
+  line-height: 0.25rem;
+  white-space: nowrap;
+}
+.text_2 {
+  margin-left: 0.78rem;
+  align-self: center;
+  color: rgb(37, 37, 37);
+  font-size: 0.25rem;
+  line-height: 0.25rem;
+  white-space: nowrap;
+}
+.text_3 {
+  align-self: center;
+  color: rgb(37, 37, 37);
+  font-size: 0.25rem;
+  line-height: 0.25rem;
+  white-space: nowrap;
+}
+.text-wrapper {
+  margin-left: 0.81rem;
+  padding-bottom: 0.13rem;
+  align-self: center;
+  color: rgb(37, 37, 37);
+  font-size: 0.25rem;
+  font-weight: 800;
+  line-height: 0.25rem;
+  white-space: nowrap;
+  border-bottom: solid 0.063rem rgb(37, 37, 37);
+}
+.image_1 {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+.text_5 {
+  margin: 0.16rem 0 0.19rem 0.13rem;
+}
+.text_6 {
+  color: rgb(37, 37, 37);
+  font-size: 0.22rem;
+  line-height: 0.19rem;
+  white-space: nowrap;
+}
+.text_7 {
+  margin-left: 0.22rem;
+  color: rgb(37, 37, 37);
+  font-size: 0.22rem;
+  line-height: 0.16rem;
+  white-space: nowrap;
+}
+.text_8 {
+  margin-left: 0.28rem;
+  color: rgb(37, 37, 37);
+  font-size: 0.22rem;
+  font-weight: 800;
+  line-height: 0.19rem;
+  white-space: nowrap;
+}
+.text_9 {
+  margin-left: 0.16rem;
+  color: rgb(37, 37, 37);
+  font-size: 0.22rem;
+  line-height: 0.16rem;
+  white-space: nowrap;
+}
+.text_10 {
+  margin-left: 0.28rem;
+  color: rgb(37, 37, 37);
+  font-size: 0.22rem;
+  line-height: 0.19rem;
+  white-space: nowrap;
+}
+.image_2 {
+  width: 5.28rem;
+  height: 6.78rem;
+  position: absolute;
+  left: 0.38rem;
+  bottom: 0.5rem;
+}
+.text-wrapper_1 {
+  padding: 4.72rem 0 1.97rem;
+  color: rgb(37, 37, 37);
+  font-size: 0.16rem;
+  line-height: 0.13rem;
+  white-space: nowrap;
+  background-image: url('https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/61f3ae885a7e3f0310e2d6a4/61f3aeaba4955900114d556d/16433599744331787221.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 6.06rem;
+  position: absolute;
+  left: 3.28rem;
+  bottom: 0;
+}
+.section_2 {
+  padding: 0.91rem 0 0.91rem;
+  background-image: url('https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/61f3ae885a7e3f0310e2d6a4/61f3aeaba4955900114d556d/16433599744466778090.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 5.66rem;
+  position: absolute;
+  left: 2.09rem;
+  top: 1.88rem;
+}
+.image_4 {
+  width: 6.5rem;
+  height: 4.25rem;
+  position: absolute;
+  right: 6.09rem;
+  top: 0.44rem;
+}
+.text_12 {
+  color: rgb(49, 52, 56);
+  font-size: 0.16rem;
+  line-height: 0.094rem;
+  white-space: nowrap;
+  position: absolute;
+  right: 4.91rem;
+  top: 2.63rem;
+}
+.image_5 {
+  width: 0.5rem;
+  height: 0.5rem;
+  position: absolute;
+  right: 5.56rem;
+  top: 2.44rem;
+}
+.section_3 {
+  padding-left: 1.16rem;
+  padding-top: 1.91rem;
+  color: rgb(37, 37, 37);
+  font-size: 0.16rem;
+  line-height: 0.13rem;
+  white-space: nowrap;
+  background-image: url('https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/61f3ae885a7e3f0310e2d6a4/61f3aeaba4955900114d556d/16433599877419112438.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 12.59rem;
+  position: absolute;
+  right: 1.72rem;
+  top: 1.34rem;
+}
+.section_5 {
+  background-image: linear-gradient(
+    180deg,
+    rgb(120, 218, 253) 0%,
+    rgba(142, 229, 239, 0) 52.1%,
+    rgb(163, 241, 228) 100%
+  );
+  border-radius: 50%;
+  width: 0.25rem;
+  height: 0.25rem;
+  position: absolute;
+  left: 6.5rem;
+  top: 4.56rem;
+}
+.image_7 {
+  width: 0.97rem;
+  height: 0.97rem;
+  position: absolute;
+  right: 8.09rem;
+  bottom: 1.81rem;
+}
+.image_8 {
+  border-radius: 50%;
+  width: 0.84rem;
+  height: 0.84rem;
+  position: absolute;
+  right: 7.09rem;
+  bottom: 1.88rem;
+}
+.text_11 {
+  margin-left: 0.28rem;
+}
+.image-wrapper {
+  padding-top: 0.63rem;
+  background-image: url('https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/61f3ae885a7e3f0310e2d6a4/61f3aeaba4955900114d556d/16433599747526190575.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 3.84rem;
+}
+.group_4 {
+  padding: 0.28rem 0 0.28rem;
+}
+.section_4 {
+  margin-right: -0.69rem;
+  align-self: flex-end;
+  background-color: linear-gradient(90deg, rgb(150, 150, 150) -75.5%, rgba(150, 150, 150, 0) 97.9%);
+  width: 5.06rem;
+  height: 0.063rem;
+}
+.image_3 {
+  width: 2.59rem;
+  height: 3.34rem;
+}
+.image_6 {
+  margin-top: 0.16rem;
+  width: 0.97rem;
+  height: 0.56rem;
+}

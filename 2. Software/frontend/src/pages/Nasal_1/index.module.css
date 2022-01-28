@@ -1,0 +1,113 @@
+.page {
+  padding-bottom: 9.31rem;
+  background-color: rgb(248, 252, 252);
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+}
+.section_1 {
+  padding: 0.31rem 0.38rem 0.31rem;
+  background-image: linear-gradient(270deg, rgba(162, 240, 227, 0) 22.6%, rgba(119, 217, 252, 0.4) 78.3%);
+}
+.divider {
+  margin-top: 0.31rem;
+  padding: 0 0.38rem;
+}
+.group {
+  flex: 1 1 auto;
+}
+.group_1 {
+  margin: 0.22rem 0.16rem 0.094rem 1.25rem;
+  color: rgb(152, 153, 154);
+  font-size: 0.25rem;
+  line-height: 0.19rem;
+  white-space: nowrap;
+}
+.text_6 {
+  color: rgb(37, 37, 37);
+  font-size: 0.22rem;
+  font-weight: 800;
+  line-height: 0.19rem;
+  white-space: nowrap;
+}
+.text_7 {
+  margin-left: 0.19rem;
+  color: rgb(37, 37, 37);
+  font-size: 0.22rem;
+  line-height: 0.16rem;
+  white-space: nowrap;
+}
+.text_8 {
+  margin-left: 0.28rem;
+  color: rgb(37, 37, 37);
+  font-size: 0.22rem;
+  line-height: 0.19rem;
+  white-space: nowrap;
+}
+.text_9 {
+  margin-left: 0.19rem;
+  color: rgb(37, 37, 37);
+  font-size: 0.22rem;
+  line-height: 0.16rem;
+  white-space: nowrap;
+}
+.text_10 {
+  margin-left: 0.28rem;
+  color: rgb(37, 37, 37);
+  font-size: 0.22rem;
+  line-height: 0.19rem;
+  white-space: nowrap;
+}
+.image {
+  width: 0.84rem;
+  height: 0.84rem;
+}
+.text {
+  margin: 0.22rem 0 0.25rem 0.16rem;
+  color: rgb(49, 52, 56);
+  font-size: 0.5rem;
+  font-weight: 600;
+  line-height: 0.38rem;
+  white-space: nowrap;
+}
+.text_1 {
+  margin-left: 1.28rem;
+  align-self: center;
+  color: rgb(37, 37, 37);
+  font-size: 0.25rem;
+  line-height: 0.25rem;
+  white-space: nowrap;
+}
+.text_2 {
+  margin-left: 0.78rem;
+  align-self: center;
+  color: rgb(37, 37, 37);
+  font-size: 0.25rem;
+  line-height: 0.25rem;
+  white-space: nowrap;
+}
+.text_3 {
+  align-self: center;
+  color: rgb(37, 37, 37);
+  font-size: 0.25rem;
+  line-height: 0.25rem;
+  white-space: nowrap;
+}
+.text-wrapper {
+  margin-left: 0.81rem;
+  padding-bottom: 0.13rem;
+  align-self: center;
+  color: rgb(37, 37, 37);
+  font-size: 0.25rem;
+  font-weight: 800;
+  line-height: 0.25rem;
+  white-space: nowrap;
+  border-bottom: solid 0.063rem rgb(37, 37, 37);
+}
+.image_1 {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+.text_5 {
+  margin: 0.16rem 0 0.19rem 0.13rem;
+}

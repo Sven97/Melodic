@@ -1,0 +1,94 @@
+.page {
+  background-color: rgb(248, 252, 252);
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+  position: relative;
+}
+.section_1 {
+  padding: 0.31rem 0.38rem 4.63rem;
+  color: rgb(49, 52, 56);
+  font-size: 0.5rem;
+  font-weight: 600;
+  line-height: 0.38rem;
+  white-space: nowrap;
+  background-image: url('https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/61f3ae885a7e3f0310e2d6a4/61f3aeaba4955900114d556d/16433600119326527172.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 17.94rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.image_1 {
+  width: 0.5rem;
+  height: 0.5rem;
+  position: absolute;
+  right: 1.41rem;
+  top: 0.53rem;
+}
+.text_1 {
+  color: rgb(152, 153, 154);
+  font-size: 0.25rem;
+  line-height: 0.19rem;
+  white-space: nowrap;
+  position: absolute;
+  right: 0.5rem;
+  top: 0.69rem;
+}
+.text_2 {
+  color: rgb(49, 52, 56);
+  font-size: 0.38rem;
+  font-weight: 600;
+  line-height: 0.28rem;
+  white-space: nowrap;
+  position: absolute;
+  left: 0.38rem;
+  bottom: 2.72rem;
+}
+.image_2 {
+  width: 14.88rem;
+  height: 10.25rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.section_2 {
+  padding: 6.5rem 0 1.44rem;
+  color: rgb(255, 251, 251);
+  font-size: 0.38rem;
+  font-weight: 600;
+  line-height: 0.28rem;
+  white-space: nowrap;
+  background-image: url('https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/61f3ae885a7e3f0310e2d6a4/61f3aeaba4955900114d556d/16433600127946093321.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 6.19rem;
+  position: absolute;
+  right: 6.63rem;
+  top: 0;
+}
+.text_4 {
+  color: rgb(0, 0, 0);
+  font-size: 0.16rem;
+  font-weight: 300;
+  line-height: 0.22rem;
+  width: 6.25rem;
+  position: absolute;
+  left: 0.38rem;
+  bottom: 1.97rem;
+}
+.image {
+  width: 0.84rem;
+  height: 0.84rem;
+}
+.text {
+  margin: 0.22rem 0 0.25rem 0.16rem;
+}
+.text-wrapper {
+  padding: 0.25rem 0 0.28rem;
+  background-image: linear-gradient(89.9deg, rgb(118, 216, 251) 16.6%, rgb(162, 240, 227) 85.7%);
+  border-radius: 0.41rem;
+  box-shadow: 0.042rem 0.042rem 0.063rem rgba(49, 49, 49, 0.25);
+  width: 3.75rem;
+}

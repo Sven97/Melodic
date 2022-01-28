@@ -1,0 +1,131 @@
+.page {
+  padding: 0.41rem 0 1.78rem;
+  background-image: url(https://codefun-proj-user-res-1256085488.cos.ap-guangzhou.myqcloud.com/61f3ae885a7e3f0310e2d6a4/61f3aeaba4955900114d556d/16433600132786940948.png);
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+}
+.section_1 {
+  padding: 0 0.63rem 0.19rem 0.75rem;
+  border-radius: 50%;
+  width: 9.09rem;
+  border: solid 0.063rem rgba(165, 239, 222, 0.5);
+}
+.group {
+  padding: 1.72rem 0 1.22rem;
+  position: relative;
+}
+.divider {
+  padding: 0 0.63rem;
+}
+.section_2 {
+  padding: 1.47rem 0.84rem 1.47rem;
+  background-image: url('https://project-user-resource-1256085488.cos.ap-guangzhou.myqcloud.com/61f3ae885a7e3f0310e2d6a4/61f3aeaba4955900114d556d/16433601033153367079.png');
+  background-position: 0px 0px;
+  background-size: 5.53rem 5.53rem;
+  background-repeat: no-repeat;
+  width: 5.53rem;
+  height: 5.53rem;
+  position: relative;
+}
+.section_4 {
+  border-radius: 50%;
+  width: 5.81rem;
+  height: 5.81rem;
+  position: absolute;
+  bottom: 1.09rem;
+  left: 50%;
+  transform: translateX(-50%);
+  border: solid 0.063rem rgb(213, 240, 248);
+}
+.section_5 {
+  padding: 0.44rem 0;
+  border-radius: 50%;
+  width: 7.44rem;
+  position: absolute;
+  left: 0;
+  right: 0.13rem;
+  bottom: 0.25rem;
+  border: solid 0.063rem rgb(165, 239, 222);
+}
+.text {
+  align-self: center;
+}
+.divider_1 {
+  padding-bottom: 0.063rem;
+  position: relative;
+}
+.image {
+  width: 0.44rem;
+  height: 0.47rem;
+  position: absolute;
+  right: 1.91rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.image_1 {
+  width: 0.88rem;
+  height: 1.22rem;
+  position: absolute;
+  right: 1.63rem;
+  top: 1.81rem;
+}
+.image_2 {
+  width: 0.53rem;
+  height: 0.69rem;
+  position: absolute;
+  right: 2.09rem;
+  bottom: 2.13rem;
+}
+.image_3 {
+  width: 2.06rem;
+  height: 2.53rem;
+  position: absolute;
+  left: 0.84rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.image_4 {
+  width: 0.25rem;
+  height: 0.75rem;
+  position: absolute;
+  right: 1rem;
+  bottom: 1.75rem;
+}
+.image_5 {
+  width: 0.75rem;
+  height: 2.53rem;
+  position: absolute;
+  right: 0.91rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.section_3 {
+  border-radius: 50%;
+  width: 5.56rem;
+  height: 5.56rem;
+  top: 0;
+  right: -0.031rem;
+  bottom: -0.031rem;
+  left: -0.031rem;
+  position: absolute;
+  border: solid 0.063rem rgba(226, 225, 225, 0.4);
+}
+.section_6 {
+  margin: 0 0.44rem;
+  border-radius: 50%;
+  height: 6.44rem;
+  border: solid 0.063rem rgba(162, 240, 227, 0.8);
+}
+.image_6 {
+  border-radius: 0.063rem;
+  width: 6.13rem;
+  height: 0.094rem;
+}
+.image_7 {
+  width: 0.19rem;
+  height: 0.19rem;
+  position: absolute;
+  right: 1.13rem;
+  bottom: 0;
+}
