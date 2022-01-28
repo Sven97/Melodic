@@ -188,4 +188,4 @@ This Python library is well-known and used in a lot of applications.
 
 When installing, if you get an error such as `/usr/bin/python3: No module named pip`, then you need to install pip first with `sudo apt install python3-pip`.
 
-
+Follow the step in **3. Software/serial communication test** to test the bidirectional_serial_communication
