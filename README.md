@@ -37,7 +37,30 @@ This is basic circuit setup of our sensors and boards. The sound sensor, flex se
 ![circuit diagram](./4.%20Doc/Assets/circuit-diagram-sketch.svg)
 
 
-## 1.3 Case Design
+## 1.3 Raspberry Pi and Arduino for Serial communication.
+
+There are 2 ways to connect your Raspberry Pi and Arduino for Serial communication.
+
+### Serial via USB.
+
+On the Raspberry Pi side, a simple USB connector is all you need. You can choose any of the 4 USB ports available on the board.
+
+For Arduino, you will use the USB port that you use to upload code from your computer (with the Arduino IDE) to your board. Here the USB connector will depend on which version you have. For boards like Arduino Uno and Mega, the connector will be different from Arduino Nano, and from Arduino Zero.
+
+For this project I’ve used an Arduino Uno board.
+![serial communication](./4.%20Doc/Assets/raspberrypi_arduino_uno_serial_usb.png)
+
+### Serial via GPIOs
+
+To make a Serial connection you can also use plain wires between the Raspberry Pi GPIOs and the Arduino pins.
+
+![serial gpio](./4.%20Doc/Assets/raspberrypi_arduino_serial_gpio.png)
+
+Depending on your Arduino board you might need to use a voltage level-shifter. The Raspberry Pi is operating at 3.3V. For Arduino boards like Due, 101, it will be fine because they also use 3.3V.
+
+But, for many Arduino, such as Uno, Mega, Leonardo, Nano, and many more, the board is operating at 5V. Thus, you need a 3.3V/5V level-shifter to protect the Raspberry Pi when connecting RX and TX (more info on Raspberry Pi pins and Arduino Uno pins).
+
+## 1.4 Case Design
 
 There are two versions of the laser cut svg file in **3. Case Design** folder. The debug version is designed for debug purpose with a lot of free space inside the case and easy access to all the ports for both boards. The compact version is designed for final product with a compact design.
 
@@ -90,6 +113,9 @@ sudo apt-get install libxvidcore-dev libx264-dev
 sudo apt-get install libgtk2.0-dev libgtk-3-dev
 sudo apt-get install libatlas-base-dev gfortran
 sudo pip3 install numpy
+```
+
+```bash
 wget -O opencv.zip https://github.com/opencv/opencv/archive/4.4.0.zip
 wget -O opencv_contrib.zip https://github.com/opencv/opencv_contrib/archive/4.4.0.zip
 unzip opencv.zip
@@ -106,7 +132,7 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE \
 make -j $(nproc)
 ```
 
-This | make | Command will take over an hour to install and there will be no indication of how much longer it will take. It may also freeze the monitor display. Be ultra patient and it will work. Once complete you are most of the way done. If it fails at any point and you receive a message like | make: *** [Makefile:163: all] Error 2 | just re-type and enter the above line | make -j $(nproc) |. Do not fear it will remember all the work it has already done and continue from where it left off. Once complete we will resume terminal commands.
+This ` make ` Command will take over an hour to install and there will be no indication of how much longer it will take. It may also freeze the monitor display. Be ultra patient and it will work. Once complete you are most of the way done. If it fails at any point and you receive a message like ` make: *** [Makefile:163: all] Error 2 ` just re-type and enter the above line ` make -j $(nproc) `. Do not fear it will remember all the work it has already done and continue from where it left off. Once complete we will resume terminal commands.
 
 ```bash
 sudo make install && sudo ldconfig
@@ -125,3 +151,41 @@ sudo pip3 install mediapipe-rpi4
 sudo pip3 install gtts
 sudo apt install mpg321
 ```
+
+## 2.5 Raspberry pi and Arduino Serial Communication
+
+The hardware setup for serial communication between raspberry pi and arduino is introduce in 1.3. Next is software setup.
+
+### Detect the Arduino board
+
+When connecting the Arduino with a USB cable, you should see it appear as `/dev/ttyACM0`, or `/dev/ttyUSB0` (sometimes the number can be different, for example `/dev/ttyACM1`).
+
+Simply run `ls /dev/tty*` and you should see it. At this point if you’re not sure which device is the Arduino board, simply disconnect the board (remove the USB cable), and run `ls /dev/tty*` again. This way you will easily spot the serial device name of your Arduino.
+
+### Hardware permissions for Serial
+
+Also, you may want to add your user to the dialout group, to avoid errors such as: `serial.serialutil.SerialException: [Errno 13] could not open port /dev/ttyACM0: [Errno 13] Permission denied: ‘/dev/ttyACM0’`.
+
+```bash
+sudo adduser your_username dialout
+```
+
+This will make sure you have access to Serial devices (/dev/ttyACMx, /dev/ttyUSBx, …).
+
+After you’ve added yourself to the dialout group, you need to reboot your Pi (or at least logout/login) to apply the change
+
+### Install Python Serial library on Raspberry Pi
+
+You need to install a library to be able to use the Serial interface with Python.
+
+For this tutorial we’ll use the pySerial library (documentation for Python 3). To install it:
+
+```bash
+python3 -m pip install pyserial
+```
+
+This Python library is well-known and used in a lot of applications.
+
+When installing, if you get an error such as `/usr/bin/python3: No module named pip`, then you need to install pip first with `sudo apt install python3-pip`.
+
+
